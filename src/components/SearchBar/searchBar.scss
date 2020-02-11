@@ -1,8 +1,8 @@
-@use '../../sass/base';
+@use '../base/base';
 
 .SearchBar {
     @include base.colFlexDisplayCenterContent;
-    background-image: url('../../../resources/background/background_search_desktop.jpg');
+    background-image: url('../../resources/images/background/background_search_desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 25rem;
@@ -75,7 +75,7 @@
   
   @media only screen and (max-width: 560px) {
     .SearchBar {
-      background-image: url('../../../resources/background/background_search_mobile.jpg');
+      background-image: url('../../resources/images/background/background_search_mobile.jpg');
     }
   
     .SearchBar-sort-options ul {
