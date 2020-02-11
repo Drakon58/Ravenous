@@ -1,0 +1,19 @@
+@mixin flexDisplaySpacedContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin colFlexDisplaySpacedContent {
+    @include flexDisplaySpacedContent;
+    flex-direction: column;
+}
+
+@mixin flexDisplayCenterContent {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin colFlexDisplayCenterContent {
+    @include flexDisplayCenterContent;
+    flex-direction: column;
+}

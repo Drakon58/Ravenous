@@ -1,5 +1,5 @@
 import React from 'react';
-import './SearchBar.css';
+import '../../styling/sass/components/searchBar.scss';
 
 const sortByOptions = {
   'Best Matched' : 'best_match',

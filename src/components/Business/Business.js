@@ -1,5 +1,5 @@
 import React from 'react';
-import './Business.css'
+import '../../styling/sass/components/business.scss'
 
 export const Business = (props) => {
   return (

@@ -1,0 +1,47 @@
+@use '../base';
+
+$appHeaderFontFamily: Poppins, sans-serif;
+/* Universal Styles */
+
+html {
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 560px) {
+    html {
+      font-size: 15px;
+    }
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  /* Reusable Component - Image Container */
+  
+  .image-container {
+    @include base.flexDisplayCenterContent;
+    flex-direction: column;
+    overflow: hidden;
+    background: #000;
+  }
+  
+  .image-container img {
+    width: 100%;
+  }
+  
+  /* App Styles */
+  
+  .App {
+    font-family: base.$appFontFamily;
+  }
+  
+  h1 {
+    padding: .66rem 0;
+    text-align: center;
+    background-color: base.$headerColor;
+    font-family: $appHeaderFontFamily;
+    font-size: 1.8rem;
+    color: #fff;
+  }
+  

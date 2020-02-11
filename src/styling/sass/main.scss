@@ -1,0 +1,12 @@
+@use './base';
+
+body {
+    margin: 0;
+    font-family: base.$mainFontFamily;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: base.$codeFontFamily;
+}

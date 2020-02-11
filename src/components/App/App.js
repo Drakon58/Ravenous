@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../logo.svg';
-import './App.css';
+import '../../styling/sass/components/app.scss';
 import { SearchBar } from '../SearchBar/SearchBar';
 import { BusinessList } from '../BusinessList/BusinessList';
 import { Business } from '../Business/Business';
